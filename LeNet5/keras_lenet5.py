@@ -26,5 +26,5 @@ model.add(Dense(10))
 model.add(Activation('softmax'))
 
 model.compile(optimizer='sgd',loss='categorical_crossentropy', metrics=['accuracy'])
-model.fit(data,y_binary,batch_size=4,epochs=2)
+model.fit(data,y_binary,batch_size=4,epochs=2000)
 print(model.summary())

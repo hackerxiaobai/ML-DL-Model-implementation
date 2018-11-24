@@ -39,5 +39,5 @@ def vgg19(in_shape=(227,227,3), n_classes=1000, opt='sgd'):
 
 
 if __name__ == '__main__':
- model = vgg19()
- print(model.summary())
+	model = vgg19()
+	print(model.summary())

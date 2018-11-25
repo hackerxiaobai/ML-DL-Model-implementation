@@ -1,6 +1,8 @@
 from keras import layers
 from keras.models import Model, Sequential
 from functools import partial
+import numpy as np
+from keras.utils import to_categorical
 
 conv3 = partial(layers.Conv2D,kernel_size=3,strides=1,padding='same',activation='relu')
 
@@ -39,5 +41,11 @@ def vgg19(in_shape=(227,227,3), n_classes=1000, opt='sgd'):
 
 
 if __name__ == '__main__':
+
+	data = np.random.random((10, 227, 227, 3))
+	labels = np.random.randint(2, size=(10, 1))
+	y_binary = to_categorical(labels, 1000)
+
 	model = vgg19()
+	# model.fit(data,y_binary,2,1)
 	print(model.summary())

@@ -1,2 +1,8 @@
 # ML-DL-Model-implementation
-自己在学习看论文博客过程中想要实现的一些主流算法,顺带手用tensorflow,keras,pytorch都实现一下,练习一下这些框架的使用.
+## I want to implement some of the main algorithms in the process of learning to read the paper blog. By the way, I use tensorflow, keras, pytorch to implement them, and practice the use of these frameworks.
+
+1. LeNet5
+2. AlexNet
+3. GoogleNet_v1
+4. VGGNet
+5. ResNet

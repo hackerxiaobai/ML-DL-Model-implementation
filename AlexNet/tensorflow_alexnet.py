@@ -83,8 +83,8 @@ sess = tf.InteractiveSession()
 sess.run(tf.global_variables_initializer())
 
 
-data = np.random.random((10, 227, 227, 3))
-labels = np.random.randint(2, size=(10, 1))
+data = np.random.random((1, 227, 227, 3))
+labels = np.random.randint(2, size=(1, 1))
 y_binary = to_categorical(labels, 1000)
 
 

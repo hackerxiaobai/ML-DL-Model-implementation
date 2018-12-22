@@ -6,3 +6,4 @@
 3. GoogleNet_v1
 4. VGGNet
 5. ResNet
+6. DenseNet

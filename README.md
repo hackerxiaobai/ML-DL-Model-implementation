@@ -9,3 +9,4 @@
 6. DenseNet
 7. 测试分支切换
 8. 修改代码
+9. 测试vscode 使用git

@@ -7,3 +7,4 @@
 4. VGGNet
 5. ResNet
 6. DenseNet
+7. 测试分支切换
